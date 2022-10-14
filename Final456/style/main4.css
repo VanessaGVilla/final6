@@ -1,0 +1,47 @@
+*{
+    /*setting the font family to sans serif for the document*/
+    font-family: sans-serif;
+}
+body{
+    padding-top:10px;
+}
+/*styling for the image*/
+img{
+    float:left;
+    height:100px;
+    width:100px;
+    padding-right:10px;
+}
+
+.first{
+    /*making the first heading orange and style to italic*/
+    color:orange;
+    font-style: italic;
+    /*using text shadow property for applying shadow*/
+    text-shadow:0px 2px 2px grey;
+    font-size:48px;
+}
+/*using font-size property for getting bigger first letter*/
+.second{
+    font-size:48px ;
+}
+li{
+    padding:3px;
+}
+/*making the link yellow when visited*/
+a:visited{
+    color: yellow;
+}
+/*making the link green when hovered*/
+a:hover{
+    color:green;
+}
+/*making the link green when focused*/
+a:focus{
+    color: green;
+}
+/*using text-align for getting the footer text in center*/
+footer{
+    text-align: center;
+    padding-top:10px;
+}

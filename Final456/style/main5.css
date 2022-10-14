@@ -1,0 +1,68 @@
+html{
+background-image: url(https://raw.githubusercontent.com/VanessaGVilla/final5/main/bats.gif);
+background-repeat: repeat;
+}
+body{
+margin:0;
+font-family: sans-serif;
+max-width: 900px;
+background-color: white;
+border-style: solid;
+margin-left: auto;
+margin-right:auto;
+box-shadow: 10px 5px 5px 10px;
+}
+main{
+padding:20px;
+padding-left:30px;
+margin-top:-20px;
+}
+main h1::first-letter{
+font-size: 200%;
+
+}
+img{
+float: left;
+display: inline;
+vertical-align: middle;
+}
+header{
+vertical-align: middle;
+margin:0;
+padding: 1px;
+border-bottom: 2px solid;
+background: linear-gradient(45deg, white, orange, black);
+}
+header>h1{
+padding-left: 80px;
+margin-bottom:0;
+margin-left:30px;
+
+}
+header>h3{
+
+margin-top:0;
+padding-left: 80px;
+margin-left:30px;
+}
+a:link,a:visited{
+color: orange;
+}
+a:hover,a:focus{
+color: green;
+}
+li{
+margin:0;
+//padding: .4em;
+}
+footer{
+margin-top:-10px;
+height: 50px;
+font-size: 16px;
+
+border-top: 2px solid;
+background: linear-gradient(45deg, black, orange, white);
+}
+footer>p{
+text-align: center;
+}
